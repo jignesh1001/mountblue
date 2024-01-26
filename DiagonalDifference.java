@@ -14,3 +14,4 @@ public class DiagonalDifference {
           return diff;
     }
 }
+//https://www.hackerrank.com/contests/mountblue-technologies/challenges/diagonal-difference/submissions/code/1373285822
