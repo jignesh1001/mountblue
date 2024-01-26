@@ -13,7 +13,7 @@ public class SuperReducedString {
         return sb.length() == 0 ? "Empty String" : sb.toString();
     }
     public static void main(String []args){
-        String result = SuperReducedStringUsingStack("aabbccdd");
+        String result = SuperReducedStringUsingStack("aabccdd");
         System.out.println(result);
     }
     
