@@ -19,5 +19,5 @@ public class ArrayRotation {
      }
     return result;
 }
-   public static List<Integer> 
+
 }
