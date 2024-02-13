@@ -13,17 +13,11 @@ public class ArrayRotation {
         for(int i = 0;i < n - k;i++){
             rotated.add(a.get(i));
         }
-        // for(int i = 0;i<k;i++){
-        //     int temp = a.get(a.size()-1);
-        //     for(int j = a.size()-1;j>0;j--){
-        //         a.set(j, a.get(j-1));
-        //     }
-        //     a.set(0,temp);
-        // }
     List <Integer> result = new ArrayList<>();
      for(int query : queries){
          result.add(rotated.get(query));
      }
     return result;
 }
+   public static List<Integer> 
 }
