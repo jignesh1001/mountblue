@@ -1,4 +1,4 @@
-package practise;
+
 
 public class testingStringFormat {
     // Java program to demonstrate the working of format() method
