@@ -1,3 +1,3 @@
-const arr = "1344567";
-const strArr = [...arr];
-console.log(strArr)
+let string = "Hello"
+const s1 = string.slice(2,4)
+console.log(s1)
