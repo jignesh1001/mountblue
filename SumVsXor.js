@@ -1,12 +1,12 @@
 function sumXor(n) {
-    let count = 0;
-    // Count the number of zero bits in n
-    while (n > 0) {
-        if ((n & 1) === 0) {
-            count++;
+    // Write your code here
+    let counter = 0;
+    while(n > 0){
+        if(n % 2 ===0){
+            counter++;
         }
-        n >>= 1; // right shift n by 1 bit
+        n = Math.floor(n/2);
+        
     }
-    // The number of possible i's is 2 to the power of the count of zero bits
-    return 1 << count;
+     return 2 ** counter;
 }
